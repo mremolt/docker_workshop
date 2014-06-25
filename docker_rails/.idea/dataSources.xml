@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" hash="4262833596">
+    <data-source source="LOCAL" name="Rails docker_rails: development" uuid="e9baa1aa-89f3-4535-bede-c3bdb0426f88">
+      <driver-ref>mysql</driver-ref>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://127.0.0.1/docker_rails_development</jdbc-url>
+      <user-name>root</user-name>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails docker_rails: test" uuid="63bcdf90-9f08-4856-b668-a938995ff5c3">
+      <driver-ref>mysql</driver-ref>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://127.0.0.1/docker_rails_test</jdbc-url>
+      <user-name>root</user-name>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails docker_rails: production" uuid="fd00a913-0472-4224-8a0f-83d012f1e7e4">
+      <driver-ref>mysql</driver-ref>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://&lt;%= ENV['DB_PORT_3306_TCP_ADDR'] %&gt;/&lt;%= ENV['DB_ENV_MYSQL_DATABASE'] %&gt;</jdbc-url>
+      <user-name>&lt;%= ENV['DB_ENV_MYSQL_USER'] %&gt;</user-name>
+      <user-password>df96df8fdf97df8adfefdfe4dffcdff1df8ddfeedfe8dff5dfefdfe4dffcdff5dfe7dff3dff9dffbdfe6dff5dffadfebdff9dff9dffddfe5dff8dfeedf8ddff7df8adf8fdf94</user-password>
+      <libraries />
+    </data-source>
+  </component>
+</project>
+

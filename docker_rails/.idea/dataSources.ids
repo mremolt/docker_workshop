@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source source="LOCAL" name="Rails docker_rails: development" uuid="e9baa1aa-89f3-4535-bede-c3bdb0426f88">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+  <data-source source="LOCAL" name="Rails docker_rails: test" uuid="63bcdf90-9f08-4856-b668-a938995ff5c3">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+  <data-source source="LOCAL" name="Rails docker_rails: production" uuid="fd00a913-0472-4224-8a0f-83d012f1e7e4">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+</component>
