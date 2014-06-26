@@ -80,7 +80,8 @@ Spoilers: docker_rvm
 Task: Based upon docker_rvm, install passenger, add a simple config.ru and run
 it as CMD. Expose the passenger port and test.
 
-Hint: Use ADD to get the config.ru into the container.
+Hint: Use ADD to get config.ru into the container.
+Hint: See http://rack.github.io/ (second code sample) for the min config.ru
 
 Spoilers: docker_passenger
 
@@ -122,7 +123,7 @@ Hint: The first images are smaller, so faster upload ;-)
 
 
 
-## Install Docker under OSX/Windows
+## Install Docker on OSX/Windows
 
 boot2docker: http://docs.docker.com/installation/mac
 
@@ -150,5 +151,13 @@ machine. Build it and then run the image.
 Now you are on your own ...
 
 
+### Discussion time / advanced stuff
 
-
+* How to run background jobs or cron, ssh, logger... ? (https://docs.docker.com/articles/using_supervisord/)
+* One process per container vs. multiple services (pure ubuntu vs. phusion/baseimage).
+* CPU/RAM resource control (see  https://docs.docker.com/reference/commandline/cli/#run)
+* Data containers (docker run --volumes-from)
+* Backup strategies
+* Docker and CI: Building and testing inside a container via Jenkins (https://wiki.jenkins-ci.org/display/JENKINS/Docker+Plugin)
+* Run your own Docker registry (or pay money to docker.com)
+* Hosting of production docker containers (a new dcs-test.de?)
